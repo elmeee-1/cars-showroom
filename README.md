@@ -81,5 +81,9 @@ All feature values (`#feature-engine`, `#feature-power`, etc.) are updated dynam
 - Resolved **duplicate IDs** (`id="design"`, `id="experience"`) which are invalid HTML.
 
 ---
+## 📸 Project by :
+Elmehdi ELMELLOUKI
+Younes AMAZZAL
+
 ## 📸 Screenshots
 ![Screenshot of the car showroom landing page](Demo.jpeg)

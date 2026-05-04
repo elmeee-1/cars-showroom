@@ -68,6 +68,7 @@ align-items: center;
 padding:  15px ;
 background: rgba(255, 255, 255, 0.92);
 backdrop-filter: blur(16px);
+-webkit-backdrop-filter: blur(16px);
 border-radius: 44px;
 border: 1px solid rgba(255, 255, 255, 0.8);
 box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
@@ -470,44 +471,6 @@ align-items: center;
     aspect-ratio: 1;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
 }
-
-/* .color-dot {
-width: 34px;
-height: 34px;
-border-radius: 50%;
-cursor: pointer;
-border: 2px solid transparent;
-transition: 0.25s;
-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
-position: relative;
-}
-.color-dot:hover {
-transform: scale(1.18);
-}
-.color-dot.active {
-border-color: #000;
-box-shadow: 0 0 0 2px white, 0 0 0 4px black;
-}
-.color-dot::after {
-content: attr(data-label);
-position: absolute;
-bottom: -28px;
-left: 50%;
-transform: translateX(-50%);
-font-size: 0.55rem;
-font-weight: 600;
-background: rgba(0, 0, 0, 0.8);
-color: #fff;
-padding: 2px 8px;
-border-radius: 20px;
-opacity: 0;
-pointer-events: none;
-transition: 0.2s;
-white-space: nowrap;
-}
-.color-dot:hover::after {
-opacity: 1;
-} */
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1200px) {
