@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mercedes-Benz | Luxury Car Showroom</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">     
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -17,6 +18,7 @@
         <div class="nav-links">
         <ul class="nav-bar">
             <li><a href="#models" class="active">Model</a></li>
+
             <li><a href="#services">Service</a></li>
             <li><a href="#experience">Experience</a></li>
             <li> <a href="#configure">Configure</a></li>
@@ -71,14 +73,9 @@
                 <div class="car-backdrop">MERCEDES</div>
                 <div class="car-img-wrapper">
                     <!-- Real car image (swapped via JS) -->
-                    <img id="car-main-image"
-                    src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=900&q=80&fm=jpg&fit=crop&crop=center"
-                    alt="Mercedes-Benz AMG" />
+                    <!-- IMAGE LOAD USING JS -->
                     <!-- Pins -->
-                    <div class="pin pin-1">Panorama Roof</div>
-                    <div class="pin pin-2">AMG Night Pack</div>
-                    <div class="pin pin-3">AMG Body Styling</div>
-                    <div class="pin pin-4">Pure Performance</div>
+                    
                 </div>
             </div>
 
@@ -143,16 +140,7 @@
             <div class="color-switcher" id="purchase">
                 <h4>Colors <i class="fa-regular fa-palette" style="margin-left:6px;"></i></h4>
                 <div class="color-dots" id="color-dots-container">
-                    <div class="color-dot active" data-color="gold" data-label="Gold"
-                    style="background: #d4b896; border-color: #b8946e;"></div>
-                    <div class="color-dot" data-color="silver" data-label="Silver"
-                    style="background: #c0c5ce; border-color: #9ba0ab;"></div>
-                    <div class="color-dot" data-color="red" data-label="Red"
-                    style="background: #c0392b; border-color: #962d22;"></div>
-                    <div class="color-dot" data-color="blue" data-label="Blue"
-                    style="background: #2c6aa0; border-color: #1d4c78;"></div>
-                    <div class="color-dot" data-color="black" data-label="Black"
-                    style="background: #1a1a1a; border-color: #000000;"></div>
+                    <!-- <div class="²" data-color="black" data-label="Black" style="background: #1a1a1a; border-color: #000000;"></div> -->
                 </div>
                 <p style="font-size: 0.75rem; color: var(--text-light); margin-top: 4px;">
                     <i class="fa-regular fa-circle-info"></i> Click a color to see the real car
