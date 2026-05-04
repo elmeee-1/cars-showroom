@@ -83,7 +83,10 @@ All feature values (`#feature-engine`, `#feature-power`, etc.) are updated dynam
 ---
 ## 📸 Project by :
 Elmehdi ELMELLOUKI
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elmehdi-elmellouki-963552331/)
+
 Younes AMAZZAL
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/younes-amazzal-3152042b0/)
 
 ## 📸 Screenshots
 ![Screenshot of the car showroom landing page](Demo.jpeg)
