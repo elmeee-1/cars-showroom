@@ -455,8 +455,26 @@ font-size: 1rem;
 display: flex;
 gap: 14px;
 flex-wrap: wrap;
+align-items: center;
 }
-.color-dot {
+.color-dots input {
+    cursor: pointer;
+    appearance: none;
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    border: 2px solid rgba(0,0,0,0.4);
+    /* transition: 0.2s; */
+}
+.color-dots input:checked {
+    border-color: black;
+    border-style: dotted;
+    width: 35px;
+    aspect-ratio: 1;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* .color-dot {
 width: 34px;
 height: 34px;
 border-radius: 50%;
@@ -473,7 +491,6 @@ transform: scale(1.18);
 border-color: #000;
 box-shadow: 0 0 0 2px white, 0 0 0 4px black;
 }
-/* tooltip style for color dots */
 .color-dot::after {
 content: attr(data-label);
 position: absolute;
@@ -493,7 +510,7 @@ white-space: nowrap;
 }
 .color-dot:hover::after {
 opacity: 1;
-}
+} */
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1200px) {

@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mercedes-Benz | Luxury Car Showroom</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">     
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -17,6 +18,7 @@
         <div class="nav-links">
         <ul class="nav-bar">
             <li><a href="#models" class="active">Model</a></li>
+
             <li><a href="#services">Service</a></li>
             <li><a href="#experience">Experience</a></li>
             <li> <a href="#configure">Configure</a></li>
@@ -52,6 +54,31 @@
                     <a href="#luxury" class="tab-btn">Luxury</a>
                     <a href="#multimedia" class="tab-btn">Multimedia</a>
                 </div>
+            </div>
+
+            <!-- CENTER: Car Image + Pins -->
+            <div class="center-col" id="design">
+                <div class="car-backdrop">MERCEDES</div>
+                <div class="car-img-wrapper">
+                    <!-- Real car image (swapped via JS) -->
+                    <!-- IMAGE LOAD USING JS -->
+                    <!-- Pins -->
+                    
+                </div>
+            </div>
+
+            <!-- RIGHT: Info Cards -->
+            <div class="right-col" id="experience">
+                <a href="#power-detail" class="glass-card info-card">
+                    <h4><span>Unsurpassed Power</span> <i class="fa-regular fa-gem"></i></h4>
+                    <p id="power-desc">A handcrafted 503 hp biturbo V8 unleashes a 516 lb-ft torrent of torque.</p>
+                    <span class="cta-btn">Explore <i class="fa-regular fa-arrow-right"></i></span>
+                </a>
+                <a href="#accessories" class="glass-card info-card">
+                    <h4><span>VPC Accessories</span> <i class="fa-regular fa-circle-check"></i></h4>
+                    <p>Discover exclusive VPC accessories including carbon fiber trims and 21" forged wheels.</p>
+                    <span class="cta-btn">View All <i class="fa-regular fa-arrow-right"></i></span>
+                </a>
             </div>
         </div>
 
@@ -126,16 +153,7 @@
             <div class="color-switcher" id="purchase">
                 <h4>Colors <i class="fa-regular fa-palette" style="margin-left:6px;"></i></h4>
                 <div class="color-dots" id="color-dots-container">
-                    <div class="color-dot active" data-color="gold" data-label="Gold"
-                    style="background: #d4b896; border-color: #b8946e;"></div>
-                    <div class="color-dot" data-color="silver" data-label="Silver"
-                    style="background: #c0c5ce; border-color: #9ba0ab;"></div>
-                    <div class="color-dot" data-color="red" data-label="Red"
-                    style="background: #c0392b; border-color: #962d22;"></div>
-                    <div class="color-dot" data-color="blue" data-label="Blue"
-                    style="background: #2c6aa0; border-color: #1d4c78;"></div>
-                    <div class="color-dot" data-color="black" data-label="Black"
-                    style="background: #1a1a1a; border-color: #000000;"></div>
+                    <!-- <div class="²" data-color="black" data-label="Black" style="background: #1a1a1a; border-color: #000000;"></div> -->
                 </div>
                 <p style="font-size: 0.75rem; color: var(--text-light); margin-top: 4px;">
                     <i class="fa-regular fa-circle-info"></i> Click a color to see the real car
