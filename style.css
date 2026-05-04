@@ -1,13 +1,10 @@
-/* ===== RESET & VARIABLES ===== */
-*,
-*::before,
-*::after {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
+*,*::before,*::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 :root {
---primary-bg: #f7f9fc;
+--primary-bg: #dbdbdb;
 --text-dark: #111111;
 --text-light: #888888;
 --accent-black: #000000;
